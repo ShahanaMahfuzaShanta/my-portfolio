@@ -1,10 +1,11 @@
 import React from 'react';
+import Me from './Me';
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <>
+        <Me />
+        </>
     );
 };
 
