@@ -18,11 +18,11 @@ const Nav = () => {
     )
     return (
         <>
-        <div className='grid bg-gray-200 w-64 justify-items-center py-10'>
+        <div className=' bg-gray-200 w-64 py-10 px-5'>
         <div>
         <img src="https://i.ibb.co/b7TSbTH/shanta2.jpg" alt="" className='rounded-full w-48 h-48 border-white border-4'/>
         </div>
-       <div className='mt-10'>
+       <div className='mt-10 px-10'>
        <ul>
             {navElements}
         </ul>
