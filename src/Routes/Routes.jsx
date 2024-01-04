@@ -8,6 +8,7 @@ import Resume from "../Pages/Resume/Resume";
 import Contact from "../Pages/Contact/Contact";
 import Education from "../Pages/Resume/Education";
 import Experiences from "../Pages/Resume/Experiences";
+import AboutMe from "../Pages/AboutMe/AboutMe";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />
+            },
+            {
+                path: '/about-me',
+                element: <AboutMe />
             },
             {
                 path: '/features',

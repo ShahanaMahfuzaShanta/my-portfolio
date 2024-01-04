@@ -7,8 +7,8 @@ import "./Bar.css";
 const Skills = () => {
   return (
     <>
-      <div className="bg-gray-100 w-5/6 p-10">
-        <Headings heading="My Skills"></Headings>
+      <div className="p-10 h-screen overflow-y-auto">
+        <Headings heading="My Skills" sub_heading="My Skills"></Headings>
         <div className="w-[800px] mx-auto grid gap-8 text-gray-600">
           <div className="">
             <p className="mb-3">HTML</p>

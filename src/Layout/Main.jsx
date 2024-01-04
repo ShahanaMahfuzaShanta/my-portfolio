@@ -6,8 +6,12 @@ const Main = () => {
     return (
         <>
         <div className='flex'>
-        <Nav />    
+        <div>
+        <Nav />
+        </div>    
+        <div className='w-5/6 bg-neutral-800 text-white'>
         <Outlet />
+        </div>
         </div>
         </>
     );
